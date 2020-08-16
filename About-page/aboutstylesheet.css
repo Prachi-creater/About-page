@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+header {
+    height: 100px;
+    width: 100px;
+    background: aliceblue;
+    z-index: 17;
+}
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 5px;
+}
+nav {
+    float: right;
+    line-height: 100px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+    color: black;
+}
+.card {
+    background-color: gray;
+    padding-top: 10px;
+    margin: auto;
+    justify-content: center;
+
+}
+.dot {
+    height: 65px;
+    width: 65px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
